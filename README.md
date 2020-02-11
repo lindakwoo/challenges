@@ -7,3 +7,5 @@ Although there are a lot of git GUI tools out there, I recommend using the git c
 # How Do I Submit Solutions?
 I have created a "solutions" directory for each challenge into which you should create your solution. Name your file <git username>-solution.js. When you believe your solution is complete, open a pull request to the master branch with your solution. Include me (jcampos8782) and whoever else you would like to review your code on the pull request. Once reviewed and the solution is correct, it will be merged to master. 
   
+# Collaboration
+Feel free to collaborate as much as you'd like. Thats the whole point of Git! Create whatever branches you need to whenever you need to. This is a workspace for you to learn with git and experiment with collaboration using source control. 
