@@ -22,7 +22,7 @@
             decode(encode("string", "BIN"), "BIN")
             and
             encode(decode("ingstray", "PIG"), "PIG")
-        should return the "string".
+        should return the "string" and "ingstray" respectively
 
     The following code will get you started down the right path.
 */
