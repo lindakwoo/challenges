@@ -68,10 +68,13 @@ class LruCache:
 
     def __pop(self):
         if not self.__is_empty():
-            new_tail = self.__tail[2]
-            new_tail[3] = None
             del self.__cache[self.__tail[0]]
+
+            new_tail = self.__tail[2]
             self.__tail = new_tail
+
+            if new_tail is not None:
+                new_tail[3] = None
 
 
 cache = LruCache(3)
