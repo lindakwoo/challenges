@@ -1,40 +1,17 @@
 /*
-    Daily Challenge 2/14/2020
+    Daily Challenge 2/17/2020
 
-    Write a class which has two functions: encode() and decode().
-    Each should accept two arguments: a message to encode/decode and an encoding type.
-    Your function should accept three encoding formats: "MRS", "HEX", and "BIN".
+    Write a function which accepts an array of numbers and a target value.
+    Find the two numbers in the input array which sum to the target value
+    and return their INDICES.
 
-    MRS - Encode the string in morse code using . and _ as dot and dash characters
-            https://en.wikipedia.org/wiki/Morse_code
-    HEX - Encode the string into hexidecimal format
-            https://en.wikipedia.org/wiki/Hexadecimal
-    BIN - Encode the string in binary format
-            https://en.wikipedia.org/wiki/Binary_code
+    Each input set should contain exactly ONE result. A single number can
+    NOT be counted twice.
 
-    BONUS: Add support for "PIG" which will encode the string into Pig Latin. https://en.wikipedia.org/wiki/Pig_Latin
-    Requirements:
-        encode(str, encoding-type): Returns the encoded string
-        decode(str, encoding-type): Returns the decoded string
+    Input: [0, 2, 5, 8, 12], 10
+    Output: [1,3]
 
     Considerations:
-        Encode and decode are inverse operations. That means that
-            decode(encode("string", "BIN"), "BIN")
-            and
-            encode(decode("ingstray", "PIG"), "PIG")
-        should return the "string" and "ingstray" respectively
-
-    The following code will get you started down the right path.
+      - This solution can be done with O(n) time complexity. It might be
+        worth just trying to
 */
-
-const Encoder = function(capacity){
-    // Internal state should be here
-    return {
-        encode: function(str, encoding) {
-            // put function body here
-        },
-        decode: function(str, encoding) {
-            // get function body here
-        }
-    };
-}();
