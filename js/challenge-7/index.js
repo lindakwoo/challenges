@@ -12,6 +12,5 @@
     Output: [1,3]
 
     Considerations:
-      - This solution can be done with O(n) time complexity. It might be
-        worth just trying to
+      - This solution can be done with O(n) time complexity. 
 */
